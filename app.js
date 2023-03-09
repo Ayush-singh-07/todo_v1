@@ -18,7 +18,7 @@ app.use(express.static('public'))
 
 
 // momgoDB on ATLAS
-mongoose.connect(""+proceess.env.DB_URL);
+mongoose.connect(""+process.env.DB_URL);
 
 
 //listSchema 

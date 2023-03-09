@@ -35,7 +35,7 @@ const Item = new mongoose.model('Item', itemSchema);
 
 //default added items are here
 const item1 = new Item({
-    name: "Create multiple list by add '/yourlistname' to the url  ",
+    name: "Create multiple list by adding '/yourlistname' to the url  ",
 })
 
 const item2 = new Item({

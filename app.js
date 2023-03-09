@@ -18,7 +18,7 @@ app.use(express.static('public'))
 
 
 // momgoDB on ATLAS
-mongoose.connect('mongodb+srv://user:psw@atlascluster.wudgsfsen.mongodb.net/todoListDB');
+mongoose.connect('mongodbURL/todoListDB');
 
 
 //listSchema 
